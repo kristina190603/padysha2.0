@@ -79,9 +79,9 @@ document.addEventListener('DOMContentLoaded', function () {
         splide.on('click', function (item) {
             $('#galleryModalWelcome').modal('show');
             setTimeout(() => {
-                console.log("goo");
                 mainPageModalSlider.go(item.index);
-            }, 200);
+            }, 2);
+            console.log("goo");
         });
 
         splide.on('move', function (newIndex, prevIndex, destIndex) {
@@ -694,6 +694,7 @@ $(".menuItemNews").click(function() {
         scroll.scrollTo(target);
     }
 });
+
 
 $("#closeMainPageModalVideo").click(function() {
     document.getElementById("mainPageModalVideo").pause();

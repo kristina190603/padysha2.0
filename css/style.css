@@ -491,7 +491,7 @@ nav {
   font-family: Forum;
 }
 .text-gold {
-  color: #380000 !important;
+  color: #d0a666 !important;
 }
 .discovery {
   margin-top: -60px;
@@ -3144,6 +3144,70 @@ button.close {
   font-size: clamp(21px, 13vw, 90px);
 }
 }
+
+
 @media(max-width: 1630px){
-  
+  .headerNavItem {
+    font-size: 20px;
+  }
+  #number {
+    font-size: 20px;
+  }
+  .callback-head {
+    font-size: 18px;
+    padding: 19px 78px;
+  }
+  #custom {
+    top: 4px !important;
+    left: 5px !important;
+    font-size: 16px !important;
+  }
+  #hover {
+    top: 4px !important;
+    left: 5px !important;
+    font-size: 16px !important;
+  }
+  .main_slider_circle{
+    height: 120px;
+    width: 120px;
+    font-size: 13px;
+  }
+  #nav-icon2 span{
+    height: 3px;
+  }
+  #nav-icon2 span{
+    width: 40px;
+  }
+#nav-icon2 span:nth-child(2) {
+  width: 40px;
+}
+#nav-icon2 span:nth-child(3) {
+  width: 40px;
+}
+.title{
+  font-size: clamp(40px, 12vw, 90px);
+}
+.cat{
+  font-size: clamp(50px, 15vw, 140px);
+}
+.mini-title {
+  font-size: 2.5rem;
+}
+.callBackButton {
+  width: 60px;
+  height: 60px; 
+}
+.svg-icon{
+  width: 40;
+  height: 30;
+}
+#socialBtnIcon{
+  width: 40px;
+}
+.seconSectionText{
+  font-size: 18px;
+}
+.sectionTitle{
+  font-size: clamp(18px, 7vw, 70px);
+} 
 }
