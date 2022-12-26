@@ -1,31 +1,35 @@
+
 @font-face {
   font-family: "SangBleu Empire Trial";
-  src: local("SangBleu Empire Trial"), local("SangBleu Empire Trial"),
-    url("/fonts/SangBleuEmpireTrial-Regular.woff2") format("truetype");
-  font-display: swap;
+ src: url("/fonts/SangBleuEmpireTrial-Regular.woff2");
+ font-display: swap;
+  font-style: normal; 
+font-weight: normal; 
 }
 @font-face {
   font-family: "Haigrast";
-  src: local("Haigrast"), local("Haigrast"),
-    url("/fonts/Haigrast.woff2") format("truetype");
-  font-display: swap;
+ src: url(/fonts/Haigrast.woff2);
+ font-display: swap;
+  font-style: normal; 
+font-weight: normal; 
 }
+
 @font-face {
   font-family: "Forum";
-  src: local("Forum"), local("Forum"),
-    url("/fonts/Forum-Regular.woff2") format("truetype");
-  font-display: swap;
+  src: url("/fonts/Forum-Regular.woff2");
+  font-style: normal; 
+font-weight: 300; 
+font-display: swap;
 }
 
 @font-face {
   font-family: "Ubuntu";
-  src: local("Ubuntu"), local("Forum"),
-    url("/fonts/Ubuntu-Light.ttf") format("truetype");
-  font-display: swap;
-}
+ src: url("/fonts/Ubuntu-Light.ttf");
+ font-display: swap;
+  font-style: normal; 
+font-weight: 300; 
 
-/* var(--app_max_width); */
-/* var(--container_max_width); */
+}
 :root {
   --app_max_width: 3000px;
   --container_max_width: 1200px;
@@ -35,7 +39,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Forum";
+  /* font-family: "Forum "; */
 }
 
 body,
@@ -76,6 +80,8 @@ section {
   z-index: 1;
 }
 .navbar {
+  height: 8%;
+  background-color: rgba(0, 0, 0, 0.45);
   display: block;
   transition: all 1s ease;
   padding: 10px 0;
@@ -110,11 +116,9 @@ section {
 }
 
 .bg-white .navbar-brand svg {
-  height: 39px;
+  height: 60px;
 }
-#nav-end {
-  padding-top: 1rem !important;
-}
+
 .navbar-brand svg {
   height: 60px;
   width: auto;
@@ -150,7 +154,10 @@ section {
 }
 
 #custom {
-  font-size: 17px !important;
+  font-size: 15px !important;
+}
+#hover{
+  font-size: 15px !important;
 }
 .preloader {
   background: rgb(56, 0, 0);
@@ -205,12 +212,14 @@ section {
   transition-delay: 3s !important;
 }
 .link {
+  letter-spacing: 1px !important;
   height: 2vh;
   width: 9vw;
-  font-family: "Ubuntu";
   font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
+  font-family: "SangBleu Empire Trial";
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 15px !important;
   line-height: 2vw;
   /* text-transform: uppercase; */
   color: #ffffff;
@@ -236,7 +245,7 @@ section {
 }
 #nav-icon2 {
   width: 32px;
-  height: 24px;
+  height: 40px;
   position: relative;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -252,8 +261,8 @@ section {
 #nav-icon2 span {
   display: block;
   position: absolute;
-  height: 4px;
-  width: 40px;
+  height: 2px;
+  width: 23px;
   background: #fff;
   border-radius: 5px;
   -webkit-transform: rotate(0deg);
@@ -271,13 +280,13 @@ section {
 #nav-icon2 span:nth-child(2) {
   top: 8px;
   left: -5px;
-  width: 40px;
+  width: 20px;
 }
 
 #nav-icon2 span:nth-child(3) {
   top: 16px;
   left: 5px;
-  width: 40px;
+  width: 20px;
 }
 
 #nav-icon2:hover span:nth-child(1) {
@@ -329,8 +338,8 @@ section {
   text-align: left;
 }
 #number {
-  margin-top: -4px;
-  font-size: 20px;
+  margin-top: -10px;
+  font-size: 15px;
 }
 #nav-icon2 {
   margin-top: 23px;
@@ -367,7 +376,7 @@ nav {
   height: 100%;
 }
 .mini-title {
-  font-size: clamp(50px, 5vw, 28px);
+  font-size: clamp(12px, 5vw, 28px);
   line-height: 100%;
   text-align: center;
   text-transform: uppercase;
@@ -393,11 +402,13 @@ nav {
   z-index: 2;
 }
 .cat {
-  font-size: clamp(50px, 15vw, 160px);
+  font-size: clamp(40px, 15vw, 120px);
   line-height: 130%;
   color: #d0a666;
-  font-family: Haigrast;
+  /* font-family: Haigrast; */
+  font-family: "SangBleu Empire Trial";
 }
+
 
 .residents {
   margin-top: -60px;
@@ -719,7 +730,7 @@ section.third {
     height: 20px;
 } */
 .callback-head {
-  padding: 22px 85px;
+  padding: 16px 5px;
   text-align: left;
 }
 .callback-head span {
@@ -845,7 +856,7 @@ section.contacts {
   /* background: #191D23; */
 }
 #menu .title {
-  font-family: "SangBleu Empire Trial";
+  /* font-family: "SangBleu Empire Trial"; */
   font-style: normal;
   font-weight: normal;
   font-size: clamp(25px, 7vw, 60px);
@@ -1456,6 +1467,7 @@ p.write-text.writeBackText {
 .mainContentStyle {
   max-width: var(--container_max_width);
   margin: auto;
+  padding-left: 20px;
   padding-right: 20px;
 }
 .mainContentStyle1 {
@@ -1465,7 +1477,7 @@ p.write-text.writeBackText {
 }
 
 .seconSectionTitle {
-  font-family: "Felix Titling";
+  font-family: SangBleu Empire Trial;
   font-weight: 400;
   font-size: 149px;
   line-height: 1;
@@ -1511,8 +1523,7 @@ p.write-text.writeBackText {
 .seconSectionText {
   font-family: "Ubuntu";
   font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 160%;
   color: #e4e4e4;
 }
@@ -1578,7 +1589,7 @@ p.write-text.writeBackText {
     -webkit-transform 2s linear 0s;
 }
 .circleRoundText {
-  font-family: "haigrast";
+  font-family: "SangBleu Empire Trial";
   font-weight: 400;
   /* font-size: 121px; */
   font-size: clamp(60px, 8vw, 100px);
@@ -1601,7 +1612,7 @@ p.write-text.writeBackText {
 }
 
 .capsYearsNum {
-  font-family: "Felix Titling";
+  font-family: "SangBleu Empire Trial";
   font-style: normal;
   font-weight: 400;
   /* font-size: 170px; */
@@ -1688,8 +1699,8 @@ p.write-text.writeBackText {
 
 .projectStreet {
   font-family: "Ubuntu";
-  font-style: normal;
-  font-weight: 300;
+  font-style: italic;
+  font-weight: 400;
   font-size: 15px;
   line-height: 160%;
   color: #380000;
@@ -1698,9 +1709,9 @@ p.write-text.writeBackText {
 }
 .projectState {
   font-family: "Ubuntu";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
   line-height: 160%;
   color: #a7834c;
   opacity: 0.9;
@@ -1766,7 +1777,7 @@ p.write-text.writeBackText {
 }
 
 .projectItemCardWrapper:hover {
-  border: 1px solid #d0a666;
+  border: 1px solid #d0a666
 }
 .projectItemCardWrapper:hover .projectTitle {
   color: #d0a666;
@@ -1783,13 +1794,13 @@ p.write-text.writeBackText {
 }
 
 .blockSSDText {
-  font-family: "Ubuntu";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 22px;
-  line-height: 180%;
-  color: #000000;
-  max-width: 249px;
+  font-family: system-ui;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 15px;
+  color: #212529;
+  line-height: 3rem;
+  max-width: 85%;
   margin-left: auto;
 }
 
@@ -1917,9 +1928,7 @@ p.write-text.writeBackText {
 
 .headerNavItem {
   flex: 1 0 0;
-  height: 30px;
-  font-size: 20px;
-  letter-spacing: 1px;
+  height: 45px;
 }
 
 .videoArinaF:before {
@@ -2503,8 +2512,8 @@ button.close {
   -webkit-backface-visibility: hidden;
 }
 #socialBtnIcon {
-  width: 3vw;
-  height: 6vh !important;
+  width: 2vw;
+  height: 4vh !important;
 }
 .overflow_visible {
   overflow: visible;

@@ -303,11 +303,11 @@ let option = {
 }
 
 if ($('#inner-slider4').length){
-    let splide5 = new Splide('#inner-slider4', option);
+    let splide5 = newSplide('#inner-slider4', option);
     splide5.mount();    
 }
 if ($('#inner-slider5').length) {
-    let splide6 = new Splide('#inner-slider5', option);
+    let splide6 = newSplide('#inner-slider5', option);
     splide6.mount();
 }
 
@@ -462,7 +462,7 @@ $('.splide__slide img').on('click', function(){
 });
 
 if($('#news-slider').length){
-   var splide5 = new Splide('#news-slider', {
+   var splide5 = newSplide('#news-slider', {
     type   : 'loop',
     perPage: 2,
     easing: "cubic-bezier(0.25, 1, 0.5, 1)",
