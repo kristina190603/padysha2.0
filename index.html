@@ -70,13 +70,19 @@
           >
         </div>
       </div>
+      <!-- NAVBAR START -->
       <nav
         class="navbar navbar-expand-lg navbar-light fixed-top delay-for-preloader"
       >
         <div class="container-fluid" style="max-width: 1300px">
           <div class="col-5 d-lg-flex d-none">
+            <a href="./index.html" 
+            class="menuItemNews link headerNavItem nav-hover c-pointer">
+              <span class="custom">Башкы бет</span>
+              <span class="hover">Башкы бет</span>
+            </a>
             <a
-              href="/about"
+              href="./about.html"
               class="link headerNavItem nav-hover"
               style="flex: 1 0 20px"
             >
@@ -86,10 +92,6 @@
             <a class="menuItemProjects link headerNavItem nav-hover c-pointer">
               <span class="custom">Объекттер</span>
               <span class="hover">Объекттер</span>
-            </a>
-            <a class="menuItemNews link headerNavItem nav-hover c-pointer">
-              <span class="custom">Башкы бет</span>
-              <span class="hover">Башкы бет</span>
             </a>
             <a href="/contacts" class="link headerNavItem nav-hover">
               <span class="custom">Байланышуу</span>
@@ -112,7 +114,6 @@
                   href="data:image/png;base64,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 TkSuQmCC"
                 />
               </svg>
-              <!-- <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400"><g fill-rule="evenodd"> -->
             </a>
           </div>
           <div
@@ -142,6 +143,7 @@
           </div>
         </div>
       </nav>
+      <!-- NAVBAR END -->
       <div class="callBackButtonWrapper" style="z-index: 99">
         <div class="callBackButtonWrapperInner">
           <a class="socialBtn" id="socialbtnIcon" href="tel:+996557900600">
@@ -174,13 +176,13 @@
               />
             </svg>
           </a>
-          <a class="socialBtn" id="socialbtnIcon" href="https://wa.me/9960557900600">
+          <a class="socialBtn" id="socialbtnIcon" href="https://wa.me/996559187799">
             <span class="socialHoverText"> Написать в What's App </span>
             <img src="./img/whatsUpIcon.svg" alt="" />
           </a>
           <a
             class="socialBtn" id="socialbtnIcon"
-            href="https://www.instagram.com/accounts/login/?next=/capstroy.kg/"
+            href="https://www.instagram.com/padysha_kg/"
           >
             <span class="socialHoverText"> Написать в Instagram </span>
             <svg
@@ -252,7 +254,7 @@
           </svg>
         </button>
       </div>
-
+<!-- ! MODAL WINDOW START -->
       <div
         class="modal fade"
         id="menu"
@@ -447,7 +449,7 @@
           </div>
         </div>
       </div>
-      
+      <!--! MODAL WINDOW END  -->
       <section
         class="first main-img overflow-hidden"
         data-scroll-section
@@ -605,7 +607,7 @@
           >
             <button
               class="spin circle main_slider_circle mainSlider_2 mainSliderInActiveImage bg-img-check"
-              style=""
+              
             >
             объект жөнүндө маалымат
             </button>
@@ -617,7 +619,7 @@
           >
             <button
               class="spin circle main_slider_circle mainSlider_3 mainSliderInActiveImage bg-img-check"
-              style=""
+              
             >
             объект жөнүндө маалымат
             </button>
@@ -629,7 +631,7 @@
           >
             <button
               class="spin circle main_slider_circle mainSlider_4 mainSliderInActiveImage bg-img-check"
-              style=""
+          
             >
             объект жөнүндө маалымат
             </button>
@@ -695,7 +697,6 @@
           <div class="col-lg-4 col-md-4 col-sm-12 seconSectionItemWrapper">
             <div class="pos_down_op_0_tr_1 seconSectionTitle">
               <span>8</span><span class="fontBorder">/2</span>
-              <!-- <span>8</span><span class="fontBorder">/5</span>   -->
             </div>
             <p class="seconSectionText" style="margin-top: 15px">
               Аз убакыттын ичинде биздин компания кардарлардын ишенимине гана
@@ -706,7 +707,6 @@
           <div class="col-lg-4 col-md-4 col-sm-12 seconSectionItemWrapper">
             <div class="pos_down_op_0_tr_1 seconSectionTitle2">
               <span>Б</span><span class="fontBorder2">Ж</span>
-              <!-- <span>Г</span><span class="fontBorder2">Л</span>     -->
             </div>
             <p class="seconSectionText">
               Биз батирлердин ички пландаштыруусун кенен жана ыңгайлуу кылып,
@@ -717,7 +717,6 @@
           <div class="col-lg-4 col-md-4 col-sm-12 seconSectionItemWrapper">
             <div class="pos_down_op_0_tr_1 seconSectionTitle2">
               <span>К</span><span class="fontBorder2">К</span>
-              <!-- <span>К</span><span class="fontBorder2">К</span>     -->
             </div>
             <p class="seconSectionText">
               Биз күтүлбөгөн кырдаалдарды алдын алууга дайым даярбыз жана
@@ -728,7 +727,6 @@
           <div class="col-lg-4 col-md-4 col-sm-12 seconSectionItemWrapper">
             <div class="pos_down_op_0_tr_1 seconSectionTitle2">
               <span>A</span><span class="fontBorder2">K</span>
-              <!-- <span>Г</span><span class="fontBorder2">Л</span>     -->
             </div>
             <p class="seconSectionText">
               Жумушчу бригадалардын саны жана өздүк капиталдын болушу - үйлөрдү
@@ -888,7 +886,7 @@
                 <p class="write-text2 cat" style="font-size: clamp(50px, 10vw, 110px);position: absolute;top: 15%;left: 43%; color: #380000;">Эскерүү</p>
             </div>
             <div class="col-lg-4 col-12 d-flex flex-column">
-                <div class="blockSSDText mt-5 mt-md-0 mt-lg-0" style="">
+                <div class="blockSSDText mt-5 mt-md-0 mt-lg-0" >
 
                   <span>
                     Бул объектти курууда компания өзүнун капиталын пайдаланган, ошону менен ал кардарлары үчүн тобокелдиктерди азайтып, 2016-жылдын башындагы кыймылсыз мүлк рыногун курчап турган кризистик  кырдаалда дагы өзүнүн туруктуулугун сактап кала алган.
@@ -1143,7 +1141,6 @@
                           background-position: center;
                         "
                       >
-                        <!-- <img src="/storage/main-page/October2022/Mop7is6ib3oguuYKtnyI.jpg" alt=""> -->
                       </li>
                     </ul>
                   </div>
@@ -1153,94 +1150,7 @@
           </div>
         </div>
       </div>
-
-      <!-- 
-<section id="newsRowContainer" class="third position-relative" style="background: #132033;max-height: 1171px;" data-scroll-section data-scroll-section-id="section2">
-    <article class="mainContentStyle" style="position:relative;padding-bottom: 160px;" data-scroll>
-        <p  class="sectionTitle pos_down_op_0_tr_1" style="color:white;">
-            Новости
-        </p> 
-        <p class="newsTitleHand cat write-text2" style="">
-            News
-        </p>
-         
-        <div style="max-height:530px;max-width: 780px;margin: auto;margin-top:50px;">
-            <div id="news-slider" >
-                <div class="splide__arrows">
-                    <button class="splide__arrow splide__arrow--prev" style="left:20!Important;top:61%!important;border:1px solid white!important">
-                        <span class="circle"></span>
-                        <img src="/img/left.svg" alt="">
-                    </button>
-                    <button class="splide__arrow splide__arrow--next" style="right:20!Important;top:61%!important;border:1px solid white!important">
-                        <span class="circle"></span>
-                        <img class="rotate-180" src="/img/left.svg" alt="">
-                    </button>
-                </div>
-                <div class="splide__track">
-                    <ul class="splide__list">
-                                                    <li class="news_slider_item_parent splide__slide d-flex align-items-center ">
-                                <a href="/news/1" class="h-100">
-                                    <div class="news_slider_item_img" style="background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(https://capstroy.kg/storage/news/August2022/saZTTnwF9K47KiPi45Lu-medium.jpg)">
-                                        <div class="news_slider_item">
-                                            <span class="news_item_date">12.08.2022</span>
-                                            <div>
-                                                <span class="news_item_title truncate2">
-                                                    Корпоративный отдых Capstroy KG
-                                                </span>
-                                                <div style="border:1px solid #D5D5D5;width:116px;margin: 12px 0 12px 0;"></div>
-                                                <span class="news_item_desc truncate2">
-                                                    <p>С дружной командой Capstroy KG поехали на корпоративный отдых на Иссык-Куль в пансионат "Аврора"</p>Компания выражает Вам свою благодарность и надеется, что совместный отдых принес вам приятные эмоции<p>
-                                                </span>
-                                            </div> -->
-      <!-- <div class="newsOverLay"></div> -->
-      <!-- </div>
-                                    </div>
-                                </a>
-                            </li>
-                                                    <li class="news_slider_item_parent splide__slide d-flex align-items-center ">
-                                <a href="/news/2" class="h-100">
-                                    <div class="news_slider_item_img" style="background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(https://capstroy.kg/storage/news/August2022/kTWF6qjOPrgeE9J4LHSc-medium.jpg)">
-                                        <div class="news_slider_item">
-                                            <span class="news_item_date">29.06.2022</span>
-                                            <div>
-                                                <span class="news_item_title truncate2">
-                                                    Фотоотчет со вручения ключей от ЖК &quot;Ак-Марал 2&quot;
-                                                </span>
-                                                <div style="border:1px solid #D5D5D5;width:116px;margin: 12px 0 12px 0;"></div>
-                                                <span class="news_item_desc truncate2">
-                                                    <p>Провели торжественное вручение ключей</p><p>От жилого комплекса "Ак-Марал 2"</p><p>Была шоу программа с выступлением местных звезд</p><p>И розыгрыш различных призов</p>
-                                                </span>
-                                            </div>
-                                             <div class="newsOverLay"></div> -->
-      <!-- </div>
-                                    </div>
-                                </a>
-                            </li>
-                                                    <li class="news_slider_item_parent splide__slide d-flex align-items-center ">
-                                <a href="/news/3" class="h-100">
-                                    <div class="news_slider_item_img" style="background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),url(https://capstroy.kg/storage/news/November2022/mLv1ezWBedt2vMyynlYn-medium.jpg)">
-                                        <div class="news_slider_item">
-                                            <span class="news_item_date">03/11/2022</span>
-                                            <div>
-                                                <span class="news_item_title truncate2">
-                                                    News
-                                                </span>
-                                                <div style="border:1px solid #D5D5D5;width:116px;margin: 12px 0 12px 0;"></div>
-                                                <span class="news_item_desc truncate2">
-                                                    <p>Провели торжественное вручение ключей</p><p>От жилого комплекса "Ак-Марал 2"</p><p>Была шоу программа с выступлением местных звезд</p><p>И розыгрыш различных призов</p>
-                                                </span>
-                                            </div>
-                                            <div class="newsOverLay"></div> 
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                                            </ul>
-                </div>
-            </div>
-        </div>
-    </article>
-</section> -->
+ 
       <section
         id="callback"
         class="callback hide"
@@ -1260,8 +1170,6 @@
               <br />
               байланыш
             </p>
-            <!--  -->
-
             <div style="margin-top: 100px"></div>
             <div class="d-flex flex-column input-div w-100">
               <input
@@ -1735,7 +1643,6 @@
                 </p>
               </div>
 
-              <!-- <div style="margin-top: 100px;"></div> -->
               <div class="d-flex flex-column input-div w-100">
                 <input
                   class="input name"
@@ -1819,7 +1726,7 @@
         </div>
       </div>
     </div>
-  </div>
+  <div>
  
               <div style="max-width: 308px">
                 <div class="feedbackTitle">Остались вопросы?</div>

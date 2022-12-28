@@ -1,34 +1,32 @@
-
 @font-face {
   font-family: "SangBleu Empire Trial";
- src: url("/fonts/SangBleuEmpireTrial-Regular.woff2");
- font-display: swap;
-  font-style: normal; 
-font-weight: normal; 
+  src: url("/fonts/SangBleuEmpireTrial-Regular.woff2");
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
   font-family: "Haigrast";
- src: url(/fonts/Haigrast.woff2);
- font-display: swap;
-  font-style: normal; 
-font-weight: normal; 
+  src: url(/fonts/Haigrast.woff2);
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
   font-family: "Forum";
   src: url("/fonts/Forum-Regular.woff2");
-  font-style: normal; 
-font-weight: 300; 
-font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Ubuntu";
- src: url("/fonts/Ubuntu-Light.ttf");
- font-display: swap;
-  font-style: normal; 
-font-weight: 300; 
-
+  src: url("/fonts/Ubuntu-Light.ttf");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
 }
 :root {
   --app_max_width: 3000px;
@@ -37,9 +35,6 @@ font-weight: 300;
 
 html {
   scroll-behavior: smooth;
-}
-body {
-  /* font-family: "Forum "; */
 }
 
 body,
@@ -156,7 +151,7 @@ section {
 #custom {
   font-size: 15px !important;
 }
-#hover{
+#hover {
   font-size: 15px !important;
 }
 .preloader {
@@ -219,7 +214,7 @@ section {
   font-family: "SangBleu Empire Trial";
   letter-spacing: 1px;
   font-weight: 500;
-  font-size: 15px !important;
+  font-size: 17px !important;
   line-height: 2vw;
   /* text-transform: uppercase; */
   color: #ffffff;
@@ -339,7 +334,7 @@ section {
 }
 #number {
   margin-top: -10px;
-  font-size: 15px;
+  font-size: 17px;
 }
 #nav-icon2 {
   margin-top: 23px;
@@ -408,7 +403,6 @@ nav {
   /* font-family: Haigrast; */
   font-family: "SangBleu Empire Trial";
 }
-
 
 .residents {
   margin-top: -60px;
@@ -852,9 +846,7 @@ section.contacts {
 .modal-content {
   border: none;
 }
-#menu .modal-body {
-  /* background: #191D23; */
-}
+
 #menu .title {
   /* font-family: "SangBleu Empire Trial"; */
   font-style: normal;
@@ -1716,9 +1708,6 @@ p.write-text.writeBackText {
   color: #a7834c;
   opacity: 0.9;
 }
-.seconSectionItemWrapper {
-  /* flex:1 0 0; */
-}
 
 .projectItemCard .projectItemCardImage {
   transform: scale(2);
@@ -1777,7 +1766,7 @@ p.write-text.writeBackText {
 }
 
 .projectItemCardWrapper:hover {
-  border: 1px solid #d0a666
+  border: 1px solid #d0a666;
 }
 .projectItemCardWrapper:hover .projectTitle {
   color: #d0a666;
@@ -1997,10 +1986,6 @@ button.close {
   width: 50%;
 }
 
-.modal_body_message {
-  /* width:100%important; */
-}
-
 .modal_content_message {
   width: 75%;
 }
@@ -2116,9 +2101,6 @@ button.close {
   padding: 197px 0 182px 0;
 }
 
-.project_section_five div {
-}
-
 .project_quote_container {
   position: relative;
   padding: 66px;
@@ -2150,15 +2132,9 @@ button.close {
   height: 448px;
   background-size: cover;
   background-position: center;
-  /* flex: 1 0 645px;
-    max-width: 645px; */
 }
-.project_section_five_2_text {
-  /* flex: 1 0 645px;
-    max-width: 645px; */
-}
+
 .project_section_five_2_img {
-  /* flex: 1 0 300px; */
   background-size: cover;
   background-position: center;
   height: 463px;
@@ -3296,7 +3272,7 @@ button.close {
   .link {
     width: 60vw;
   }
-  #custom{
+  #custom {
     top: 3px !important;
     left: -4px !important;
     font-size: 12px !important;
@@ -3306,8 +3282,38 @@ button.close {
     left: -4px !important;
     font-size: 12px !important;
   }
-  .write-text2{
+  .write-text2 {
     font-size: clamp(50px, 10vw, 95px) !important;
     top: 14vh !important;
   }
 }
+/*! ABOUT STYLES START */
+
+.blockAboutBorder {
+  margin-top: 20vh;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: rgba(255, 255, 255, 0.671); */
+}
+.aboutTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-family: "SangBleu Empire Trial";
+  color: white;
+  letter-spacing: 5px;
+}
+.accordion {
+  margin-top: 35vh;
+  width: 55%;
+  margin-left: 23%;
+}
+.accordInfo {
+  margin-left: 32%;
+  font-size: 3rem;
+}
+.colorPar{
+  color: white;
+}
+/*! ABOUT STYLES END */
