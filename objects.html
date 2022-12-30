@@ -73,30 +73,30 @@
       </div>
       <!-- NAVBAR START -->
       <nav
-        class="navbar navbar-expand-lg navbar-light fixed-top delay-for-preloader bg-white"
+        class="navbar navbar-expand-lg navbar-light fixed-top delay-for-preloader"
       >
         <div class="container-fluid" style="max-width: 1300px">
           <div class="col-5 d-lg-flex d-none">
             <a href="./index.html" 
             class="menuItemNews link headerNavItem nav-hover c-pointer">
-              <span class="custom lang"  key="home">Башкы бет</span>
-              <span class="hover lang" key="home">Башкы бет</span>
+              <span class="custom">Башкы бет</span>
+              <span class="hover">Башкы бет</span>
             </a>
             <a
               href="./abousUs.html"
               class="link headerNavItem nav-hover"
               style="flex: 1 0 20px"
             >
-              <span class="custom lang" key="about">Биз тууралуу</span>
-              <span class="hover lang" key="about">Биз тууралуу</span>
+              <span class="custom">Биз тууралуу</span>
+              <span class="hover">Биз тууралуу</span>
             </a>
             <a href="./objects.html" class="menuItemProjects link headerNavItem nav-hover c-pointer">
-              <span class="custom lang" key="objects">Объекттер</span>
-              <span class="hover lang" key="objects">Объекттер</span>
+              <span class="custom">Объекттер</span>
+              <span class="hover">Объекттер</span>
             </a>
             <a href="./contacts.html" class="link headerNavItem nav-hover">
-              <span class="custom lang"  key="contact">Байланышуу</span>
-              <span class="hover lang" key="contact">Байланышуу</span>
+              <span class="custom">Байланышуу</span>
+              <span class="hover">Байланышуу</span>
             </a>
           </div>
           <div class="col-1 text-center">
@@ -130,6 +130,7 @@
             </a>
 
             <div class="d-flex mx-lg-5 ml-auto burger-menu">
+              <p class="link mr-3 mt-1 d-lg-none d-block">меню</p>
               <button
                 class=""
                 id="nav-icon2"
@@ -141,11 +142,6 @@
                 <span></span>
               </button>
             </div>
-
-            <div class="d-flexFlags">
-              <li class="header-item-lang-ru"><button id="ru" class="translate"><img src="./storage/image/russia.png" alt="ruflag" width="40px" height="40px"></button></li>
-              <li class="header-item-lang-kr"><button id="kr" class="translate"><img src="./storage/image/kyrgyzstan.png" alt="krflag" width="40px" height="40px"></button></li>
-            </div>
           </div>
         </div>
       </nav>
@@ -153,7 +149,7 @@
       <div class="callBackButtonWrapper" style="z-index: 99">
         <div class="callBackButtonWrapperInner">
           <a class="socialBtn" id="socialbtnIcon" href="tel:+996557900600">
-            <span class="socialHoverText lang"> Позвонить </span>
+            <span class="socialHoverText"> Позвонить </span>
             <svg
               width="18"
               height="19"
@@ -168,7 +164,7 @@
             </svg>
           </a>
           <a class="socialBtn" id="socialbtnIcon" data-toggle="modal" data-target="#messageModal">
-            <span class="socialHoverText lang"> Оставить заявку </span>
+            <span class="socialHoverText"> Оставить заявку </span>
             <svg
               width="18"
               height="15"
@@ -183,14 +179,14 @@
             </svg>
           </a>
           <a class="socialBtn" id="socialbtnIcon" href="https://wa.me/996559187799">
-            <span class="socialHoverText lang"> Написать в What's App </span>
+            <span class="socialHoverText"> Написать в What's App </span>
             <img src="./img/whatsUpIcon.svg" alt="" />
           </a>
           <a
             class="socialBtn" id="socialbtnIcon"
             href="https://www.instagram.com/padysha_kg/"
           >
-            <span class="socialHoverText lang"> Написать в Instagram </span>
+            <span class="socialHoverText"> Написать в Instagram </span>
             <svg
               width="18"
               height="18"
@@ -319,7 +315,7 @@
                     data-img=""
                   >
                     <p class="cat">01</p>
-                    <a href="#" class="title lang" key="home">Башкы бет</a>
+                    <a href="#" class="title"> О компании </a>
                   </div>
                   <div
                     class="d-flex aling-items-center menu-item"
@@ -327,8 +323,8 @@
                     data-img=""
                   >
                     <p class="cat">02</p>
-                    <a class="menuItemProjects title lang" key="about" data-dismiss="modal">
-                      Биз тууралуу
+                    <a class="menuItemProjects title" data-dismiss="modal">
+                      Объекты
                     </a>
                   </div>
                   <div
@@ -338,17 +334,19 @@
                   >
                     <p class="cat">03</p>
                     <a
-                      class="menuItemNews title text-left lang" key="objects"
-                      data-dismiss="modal" 
-                    >Объекттер</a>
+                      class="menuItemNews title text-left"
+                      data-dismiss="modal"
+                    >
+                      Новости
+                    </a>
                   </div>
                   <div
-                    class="d-flex aling-items-center menu-item lang"
+                    class="d-flex aling-items-center menu-item"
                     hover_letter="K"
                     data-img=""
                   >
                     <p class="cat">04</p>
-                    <a href="#" class="title lang" key="contact">Байланышуу</a>
+                    <a href="#" class="title"> контакты </a>
                   </div>
                 </div>
                 <div
@@ -366,7 +364,7 @@
                       class="menu_tel_num mini-title pt-0"
                       style="opacity: 1"
                     >
-                    +996 559 187 799
+                    +996 557 900 600
                     </a>
                   </div>
                   <div class="d-flex h-100 align-items-center">
@@ -398,7 +396,7 @@
                       </svg>
                     </a>
                     <a
-                      href="https://www.facebook.com/padysha.ata.ltd"
+                      href="#"
                       class="facebook mr-3"
                     >
                       <svg
@@ -431,7 +429,7 @@
                       </svg>
                     </a>
                     <a
-                      href="https://www.instagram.com/padysha_ata/"
+                      href="#"
                       class="instagram"
                     >
                       <svg
@@ -473,7 +471,7 @@
                   rgba(0, 0, 0, 0.35),
                   rgba(0, 0, 0, 0.35)
                 ),
-                url(./storage/image/4.jpg);
+                url(./storage/image/1.jpg);
             "
           ></div>
 
@@ -529,25 +527,24 @@
             style="text-align: left; position: absolute"
           >
             <p
-              class="mini-title mb-3 delay-for-preloader sliderText1Fade lang"
+              class="mini-title mb-3 delay-for-preloader sliderText1Fade"
               style="text-align: left"
-              key="company"
             >
               Курулуш компания
             </p>
             <div>
-              <p class="slide_01 show-text delay-for-preloader lang">
+              <p class="slide_01 show-text delay-for-preloader">
                 <span class="title" data-scroll data-scroll-speed="3">
                   Падыша Ата
                 </span>
               </p>
             </div>
             <div style="position: absolute; right: 0">
-              <p class="cat y-25 residents write-text delay-for-preloader lang">
+              <p class="cat y-25 residents write-text delay-for-preloader">
                 Padysha
               </p>
             </div>
-            <p class="mini-title mb-3 delay-for-preloader lang" key="contr"> 
+            <p class="mini-title mb-3 delay-for-preloader">
               Келечегиңе туура салым кош
             </p>
           </span>
@@ -558,24 +555,24 @@
             style="text-align: left; position: absolute"
           >
             <p
-              class="mini-title mb-3 delay-for-preloader sliderText1Fade lang" key="turak"
+              class="mini-title mb-3 delay-for-preloader sliderText1Fade"
               style="text-align: left"
             >
             Турак Жай
             </p>
             <div>
-              <p class="slide_01 show-text delay-for-preloader lang">
+              <p class="slide_01 show-text delay-for-preloader">
                 <span class="title" data-scroll data-scroll-speed="3">
                   Ак сарай
                 </span>
               </p>
             </div>
             <div style="position: absolute; right: 0">
-              <p class="cat y-25 residents write-text delay-for-preloader lang">
+              <p class="cat y-25 residents write-text delay-for-preloader">
                 Ak <br> Saray
               </p>
             </div>
-            <p class="mini-title mb-3 delay-for-preloader lang" key="kadyr">
+            <p class="mini-title mb-3 delay-for-preloader">
               кадыр-барктын жана <br> жайлуулуктун тумары
             </p>
           </span>
@@ -586,7 +583,7 @@
             style="text-align: left; position: absolute"
           >
             <p
-              class="mini-title mb-3 delay-for-preloader sliderText1Fade lang" key="turak"
+              class="mini-title mb-3 delay-for-preloader sliderText1Fade"
               style="text-align: left"
             >
               Турак Жай
@@ -599,7 +596,7 @@
               </p>
             </div>
             <div style="position: absolute; right: 0">
-              <p class="cat y-25 residents write-text delay-for-preloader lang">
+              <p class="cat y-25 residents write-text delay-for-preloader">
                 Ырыс
               </p>
             </div>
@@ -611,8 +608,8 @@
             style="color: inherit !important; z-index: 10"
           >
             <button
-              class="spin circle main_slider_circle mainSlider_2 mainSliderInActiveImage bg-img-check lang"
-              key="obj"
+              class="spin circle main_slider_circle mainSlider_2 mainSliderInActiveImage bg-img-check"
+              
             >
             объект жөнүндө маалымат
             </button>
@@ -623,8 +620,8 @@
             style="color: inherit !important; z-index: 10"
           >
             <button
-              class="spin circle main_slider_circle mainSlider_3 mainSliderInActiveImage bg-img-check lang"
-              key="obj"
+              class="spin circle main_slider_circle mainSlider_3 mainSliderInActiveImage bg-img-check"
+              
             >
             объект жөнүндө маалымат
             </button>
@@ -635,8 +632,8 @@
             style="color: inherit !important; z-index: 10"
           >
             <button
-              class="spin circle main_slider_circle mainSlider_4 mainSliderInActiveImage bg-img-check lang"
-              key="obj"
+              class="spin circle main_slider_circle mainSlider_4 mainSliderInActiveImage bg-img-check"
+          
             >
             объект жөнүндө маалымат
             </button>
@@ -672,11 +669,11 @@
                 class="title text-left top-in-view"
                 style="font-size: clamp(23px, 9vw, 67px)"
               >
-                <span class="to lang" key="kel">Келечегиңе</span>
-                <span class="to lang" key="tuura"><span class="text-gold"> Туура </span> </span>
-                <span class="to lang" key="salym">Салым кош</span>
+                <span class="to">Келечегиңе</span>
+                <span class="to"><span class="text-gold"> Туура </span> </span>
+                <span class="to">Салым кош</span>
               </p>
-              <div class=" SubSubTitle lang" key="pad" style="color: white; font-size: 19px; font-family: SangBleu Empire Trial;">
+              <div class=" SubSubTitle" style="color: white; font-size: 19px; font-family: SangBleu Empire Trial;">
                 "Падыша АТА" курулуш компаниясы рынокто 8 жыл
               </div>
             </div>
@@ -692,7 +689,7 @@
                 <span class="circleRoundText">Падышаkg</span>
                 <div class="capsYearsWrapper pos_down_op_0_tr_1">
                   <span class="capsYearsNum">8</span>
-                  <span class="capsYearsText lang" key="zyl">жыл сиз менен</span>
+                  <span class="capsYearsText">жыл сиз менен</span>
                 </div>
               </div>
             </div>
@@ -703,7 +700,7 @@
             <div class="pos_down_op_0_tr_1 seconSectionTitle">
               <span>8</span><span class="fontBorder">/2</span>
             </div>
-            <p class="seconSectionText lang" key="az" style="margin-top: 15px">
+            <p class="seconSectionText" style="margin-top: 15px">
               Аз убакыттын ичинде биздин компания кардарлардын ишенимине гана
               эмес, ошондой эле баалуу тажрыйбага ээ болду!
             </p>
@@ -713,7 +710,7 @@
             <div class="pos_down_op_0_tr_1 seconSectionTitle2">
               <span>Б</span><span class="fontBorder2">Ж</span>
             </div>
-            <p class="seconSectionText lang" key="batyrler">
+            <p class="seconSectionText">
               Биз батирлердин ички пландаштыруусун кенен жана ыңгайлуу кылып,
               кардарларга зарыл болгон комфортту түзүүгө умтулабыз.
             </p>
@@ -723,7 +720,7 @@
             <div class="pos_down_op_0_tr_1 seconSectionTitle2">
               <span>К</span><span class="fontBorder2">К</span>
             </div>
-            <p class="seconSectionText lang" key="kytylbogon">
+            <p class="seconSectionText">
               Биз күтүлбөгөн кырдаалдарды алдын алууга дайым даярбыз жана
               курулуш этаптарын кылдаттык менен текшеребиз.
             </p>
@@ -733,7 +730,7 @@
             <div class="pos_down_op_0_tr_1 seconSectionTitle2">
               <span>A</span><span class="fontBorder2">K</span>
             </div>
-            <p class="seconSectionText lang" key="zymyshsyz">
+            <p class="seconSectionText">
               Жумушчу бригадалардын саны жана өздүк капиталдын болушу - үйлөрдү
               белгиленген мөөнөттө куруп бүтүрүүгө кепилдик берет.
             </p>
@@ -752,7 +749,7 @@
           style="gap: 30px"
           data-scroll
         >
-          <p class="pos_down_op_0_tr_1 sectionTitle lang" key="objects">Объекттер</p>
+          <p class="pos_down_op_0_tr_1 sectionTitle">Объекттер</p>
           <div class="row">
 
             <!--! first card -->
@@ -783,15 +780,16 @@
                         fill="black"
                       />
                     </svg>
-                    <span style="margin-left: 8px;" class="lang" key="district1"
-                      >Бишкек ш., Аалы Токомбаев көчөсү / Сухэ Батор көчөсү</span
+                    <span style="margin-left: 8px;"
+                      >Бишкек ш., Аалы Токомбаев көчөсү / Сухэ Батор
+                      көчөсү</span
                     >
                   </span>
                   <div
                     class="d-flex"
                     style="justify-content: space-between; align-items: center"
                   >
-                    <span class="projectState lang" key="kur">Курулуштун жургузуусундо</span>
+                    <span class="projectState">Курулуштун жургузуусундо</span>
                     <span>
                       <a href="/project/3">
                         <svg
@@ -843,7 +841,7 @@
                         fill="black"
                       />
                     </svg>
-                    <span style="margin-left: 8px" class="lang" key="district2"
+                    <span style="margin-left: 8px"
                       >Бишкек ш., Бакаев көчөсү / Ахунбаев көчөсү</span
                     >
                   </span>
@@ -851,7 +849,7 @@
                     class="d-flex"
                     style="justify-content: space-between; align-items: center"
                   >
-                    <span class="projectState lang" key="bytyr">Бүтүрүлгөн</span>
+                    <span class="projectState">Бутурулгон</span>
                     <span>
                       <a href="/project/6">
                         <svg
@@ -881,18 +879,18 @@
         <div class="d-lg-flex text-left justify-content-center py-5 my-5" id="direction">
             <div class="pr-0 pl-0 top-in-view col-lg-8 col-12 d-flex flex-column position-relative">
                 <p class="title text-dark text-left top-in-view" style="font-size: clamp(23px, 9vw, 65px);" >
-                    <span class="to lang" key="comp">Компаниянын,</span>
-<span class="to lang" key="neg">негизги багыты-сапаттуу,</span>
-<span class="to lang" key="yn">ыңгайлуу жана жеткиликтүү</span>
-<span class="to lang" key="tur">турак</span>
-<span class="to lang text-gold" key="zay">жайларды куруу.</span>
+                    <span class="to">Компаниянын,</span>
+<span class="to">негизги багыты-сапаттуу,</span>
+<span class="to">ыңгайлуу жана жеткиликтүү</span>
+<span class="to">турак</span>
+<span class="to text-gold">жайларды куруу.</span>
                 </p> 
-                <p class="write-text2 cat lang" key="memories" style="font-size: clamp(50px, 10vw, 110px);position: absolute;top: 15%;left: 43%; color: #380000;">Эскерүү</p>
+                <p class="write-text2 cat" style="font-size: clamp(50px, 10vw, 110px);position: absolute;top: 15%;left: 43%; color: #380000;">Эскерүү</p>
             </div>
             <div class="col-lg-4 col-12 d-flex flex-column">
                 <div class="blockSSDText mt-5 mt-md-0 mt-lg-0" >
 
-                  <span class="lang" key="kurchak">
+                  <span>
                     Бул объектти курууда компания өзүнун капиталын пайдаланган, ошону менен ал кардарлары үчүн тобокелдиктерди азайтып, 2016-жылдын башындагы кыймылсыз мүлк рыногун курчап турган кризистик  кырдаалда дагы өзүнүн туруктуулугун сактап кала алган.
                     </span>
                 </div>
@@ -922,18 +920,18 @@
           </video>
         </div>
         <p class="mini-title mb-3" style="opacity: 1; font-size: 24px"></p>
-        <p class="mainVideoText pos_down_op_0_tr_1 title text-white text-center lang" key="sar" style="font-size: clamp(21px, 11vw, 90px);" id="textinvideo">
+        <p class="mainVideoText pos_down_op_0_tr_1 title text-white text-center" style="font-size: clamp(21px, 11vw, 90px);" id="textinvideo">
         саркеч, <br>ыңгайлуу жана<br>ишенимдүү
     </p>
         <div class="text-center" style="z-index: 2;" data-scroll="">
-        <p class="cat architecture write-text2 lang" key="arh" style="font-size: clamp(21px, 12vw, 110px);transition: all 3s ease;">
+        <p class="cat architecture write-text2" style="font-size: clamp(21px, 12vw, 110px);transition: all 3s ease;">
             Архитектуралар
         </p>
     </div>
         <button class="spin circle feel-btn" style="z-index:2;min-width:91px;" data-toggle="modal" data-target="#videoModal">
         <img src="./img/play-icon (1).png" alt="">
     </button>
-    <p class="text-white text-center short-desc mt-4 d-block lang" key="video" style="z-index:10;margin-bottom: 60px;font-size:16px;";>
+    <p class="text-white text-center short-desc mt-4 d-block" style="z-index:10;margin-bottom: 60px;font-size:16px;";>
         Кыска видео <br />Биз жөнүндө
     </p>
       </section>
@@ -1167,7 +1165,7 @@
             class="d-flex flex-column align-items-center justify-content-center px-5 footer_em"
           >
             <p
-              class="pos_down_op_0_tr_1 title text-dark lang" key="kayra"
+              class="pos_down_op_0_tr_1 title text-dark"
               style="font-size: clamp(21px, 13vw, 100px)" id="back_call"
             >
           Кайра
@@ -1177,13 +1175,13 @@
             <div style="margin-top: 100px"></div>
             <div class="d-flex flex-column input-div w-100">
               <input
-                class="input name lang" key="name"
+                class="input name"
                 type="text"
                 name="name"
                 data-id="1"
-                placeholder="Имя"
+                placeholder="Сиздиң атыныз"
               />
-              <p class="error lang" key="syzaty">СИЗ МЕНЕН БАЙЛАНЫШУУГА АТЫ ЖОНУНУЗДУ КАЛТЫРЫП КЕТИНИЗ</p>
+              <p class="error">УКАЖИТЕ ВАШЕ ИМЯ ДЛЯ ОБРАТНОЙ СВЯЗИ</p>
             </div>
             <div class="d-flex flex-column input-div w-100">
               <input
@@ -1193,15 +1191,14 @@
                 data-id="1"
                 placeholder="телефон"
               />
-              <p class="error lang" key="error">
-                СУРАНЫЧ, УЮЛДУК ТЕЛЕФОНУЗДУН НОМЕРИН ЖАЗЫНЫЗ
+              <p class="error">
+                ПОЖАЛУЙСТА, ВВЕДИТЕ ДЕЙСТВУЮЩИЙ ТЕЛЕФОННЫЙ НОМЕР
               </p>
-
             </div>
 
-            <div class="agreement py-5 lang" key="agree">
+            <div class="agreement py-5">
               Жеке маалыматтарымды окуп жана колдонууга макуулдугумду берем саясат
-              <a href="#" class="lang" key="info">жашыруун маалыматтарга ылайык</a>
+              <a href="#">жашыруун маалыматтарга ылайык</a>
             </div>
             <button class="callback-btn mb-5" data-id="1">
               <div class="circle"></div>
@@ -1229,12 +1226,12 @@
                 </p>
               </div>
               <p
-                class="title text-dark lang" key="telp"
+                class="title text-dark"
                 style="font-size: clamp(21px, 10vw, 100px)"
               >
-                Кайра
+                Мы
                 <br />
-                чалабыз
+                перезвоним
               </p>
               <button class="callback-btn mt-5" style="background: #2e2e2e">
                 <svg
@@ -1278,34 +1275,34 @@
             class="foootir d-flex flex-wrap justify-content-center w-100 mainContentStyle"
           >
             <div>
-              <span class="footer-text-title lang" key="graph">Иштөө графиги:</span>
-              <span class="footer-text lang">Дш-Жм: 9:00 – 18:00</span>
-              <span class="footer-text lang">Иш: 10:00 – 14:00</span>
-              <span class="footer-text lang" key="sunday">вс: Дем алыш</span>
+              <span class="footer-text-title">Иштөө графиги:</span>
+              <span class="footer-text">пн-пт: 9:00 – 18:00</span>
+              <span class="footer-text">сб: 10:00 – 14:00</span>
+              <span class="footer-text">вс: Дем алыш</span>
             </div>
             <div>
-              <span class="footer-text-title lang" key="contact">Байланышуу:</span>
+              <span class="footer-text-title">Байланышуу:</span>
 
               <a href="tel:0312 31 86 68">
-                <span class="footer-text lang" style="color: white !important"
+                <span class="footer-text" style="color: white !important"
                   >0312 31 86 68</span
                 >
               </a>
 
               <a href="tel:0779 18 77 99">
-                <span class="footer-text lang" style="color: white !important"
+                <span class="footer-text" style="color: white !important"
                   >0779 18 77 99</span
                 >
               </a>
 
               <a href="tel:0559 18 77 99">
-                <span class="footer-text lang" style="color: white !important"
+                <span class="footer-text" style="color: white !important"
                   >0559 18 77 99</span
                 >
               </a>
 
               <a href="tel:0707 18 77 99">
-                <span class="footer-text lang" style="color: white !important"
+                <span class="footer-text" style="color: white !important"
                   >0707 18 77 99</span
                 >
               </a>
@@ -1313,27 +1310,26 @@
 
             <div>
               <div class="footerMiddle">
-                <span class="footer-text-title lang" key="home">Башкы бет</span>
+                <span class="footer-text-title">Компания тууралуу</span>
                 <span
-                  class="menuItemProjects footer-text lang" key="about"
+                  class="menuItemProjects footer-text"
                   style="cursor: pointer"
-                  >Биз тууралуу</span
+                  >Объекты</span
                 >
-                <span class="menuItemNews footer-text lang" key="objects" style="cursor: pointer"
-                  >Объекттер</span
+                <span class="menuItemNews footer-text" style="cursor: pointer"
+                  >Новости</span
                 >
                 <a href="/contacts"
-                  ><span class="footer-text lang" key="contact" style="cursor: pointer"
-                    >Байланышуу</span
+                  ><span class="footer-text" style="cursor: pointer"
+                    >Контакты</span
                   >
-                  <!-- !================================================== ПЕРЕВОД ДО СЮДА !!!!!============================================================================= -->
                 </a>
               </div>
             </div>
             <div>
               <div class="footerLast">
-                <span class="footer-text-title lang" key="adres">Дареги:</span>
-                <span class="footer-text lang" key="adres2"
+                <span class="footer-text-title">Дареги:</span>
+                <span class="footer-text"
                   >Бишкек шаары, Керимбеков көч. 13/1</span
                 >
                 <span class="footer-text">padysha.ata.ltd@gmail.com</span>
@@ -1375,7 +1371,7 @@
               </svg>
             </a>
             <a
-              href="https://www.facebook.com/padysha.ata.ltd"
+              href="https://www.facebook.com/capstroykg/"
               class="social pr-3 c-pointer"
             >
               <svg
@@ -1410,7 +1406,7 @@
               </svg>
             </a>
             <a
-              href="https://www.instagram.com/padysha_ata/"
+              href="https://www.instagram.com/accounts/login/?next=/capstroy.kg/"
               class="social c-pointer"
             >
               <svg
@@ -1439,8 +1435,6 @@
         </div>
       </section>
     </div>
-
-    <!-- ! BODY END -->
   </body>
   <div
     class="modal fade overflow-hidden"
@@ -1821,82 +1815,6 @@
       </div>
     </div>
   </div>
-  <!-- ! ОСТАВИТЬ ЗАЯВКУ -->
-  <div class="modal fade overflow-hidden" id="messageModal" tabindex="-1" role="dialog" aria-labelledby="messageModal" aria-hidden="true" style="background: transparent;">
-    <div class="modal-dialog w-100 h-100" role="document" style="background: transparent;display: flex;align-items: center;justify-content: center;">
-        <div class="modal_content_message modal-content" style="background: transparent;height:439px;">
-            <div class="modal_body_message modal-body h-100 position-relative p-0 d-flex flex-column" style="background-color:white;">
-                <div style="display:flex;justify-content:center;align-items:center;height:0;">
-                  <img src="./storage/image/logoPadysha.png" style="transform: translateY(63px);" width="60" height="60" viewBox="0 0 56 66" fill="none" alt="">
-                    <!-- <svg style="transform: translateY(63px);" width="56" height="66" viewBox="0 0 56 66" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M37.0845 10.7824H23.525C16.307 10.7824 10.4556 16.6337 10.4556 23.8517C10.4556 31.0417 16.2617 36.8757 23.4411 36.9208H36.9214L26.3025 47.703H23.9169L23.8515 47.703L23.7861 47.703H23.5253L23.523 47.7008C10.5016 47.525 0 36.9147 0 23.8515C0 10.7877 10.5027 0.176848 23.5251 0.00218769V0H23.8515H47.7035L40.7706 7.0396L37.0846 10.7822L37.0845 10.7824ZM55.2183 42.1485C55.2183 55.3213 44.5396 66 31.3667 66L31.3122 66L7.84185 65.9999L18.4607 55.2178H22.2175L22.2177 55.218H31.6937C38.9117 55.218 44.763 49.3667 44.763 42.1487C44.763 34.9307 38.9117 29.0794 31.6937 29.0794H18.2977V29.0793H18.2973L28.9161 18.2971H31.2793L31.3667 18.297L31.4541 18.2971H32.6735V18.3322C45.2386 19.0106 55.2183 29.4141 55.2183 42.1485Z" fill="white"/>
-                    </svg> -->
-                </div>
-
-                <div class="d-flex h-100 w-100" style="flex-wrap:wrap;">
-
-                    <div class="d_none_mobile" style="flex:1 0 0;background-image:url('/img/messageBg.png');background-size:cover;background-position:center;">
-                    <p class="dialogTextPadysha">ПАДЫША KG</p>
-                    </div>
-                    <div style="flex:1 0 0;position:relative;display: flex;justify-content: center; align-items: center;">
-                        <span style="position:absolute;top:30px;right:30px;cursor:pointer;" data-dismiss="modal" aria-label="Close">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path opacity="0.5" d="M1 1L12 12M23 23L12 12M12 12L23 1L1 23" stroke="white"/>
-                            </svg>
-                        </span>
-                            
-                        <div style="max-width:308px;">
-                            <div class="feedbackTitle">Остались вопросы?</div>
-                            <div class="feedbackSubTitle">Оставьте свой номер, мы вам перезвоним.</div> 
-
-                            <div class="input-div">
-                                <input class="feedbackInput nameInput " style="color: black;" type="text" placeholder="Ваше имя">
-                                <p class="error">УКАЖИТЕ ВАШЕ ИМЯ ДЛЯ ОБРАТНОЙ СВЯЗИ</p>
-                            </div>
-
-                            <div class="input-div">
-                                <input class="feedbackInput phoneInput" type="phone" style="color: black;" placeholder="Телефон">
-                                <p class="error">ПОЖАЛУЙСТА, ВВЕДИТЕ ДЕЙСТВУЮЩИЙ ТЕЛЕФОННЫЙ НОМЕР</p>
-                            </div>
-
-                            <div class="feedbackFinalBtn" style="margin-bottom:34px">
-                                Оставить заявку
-                            </div>
-
-                            <div class="feedbackFinalAgreement" style="color: black;">
-                                Я даю согласие на обработку моих персональных данных согласно
-                                <a href="#" class="text-gold" style="color: black;">политике конфиденциальности</a>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="hide success" data-id="1" style="display:flex;justify-content: center;background: transparent;">
-                        <div  class="messageSuccesModal d-flex flex-column justify-content-center align-items-center h-100">
-                            <div style="margin-bottom: -10%;">
-                                <p class="cat " style="font-size: clamp(21px, 16vw, 110px);">
-                                    Thank you
-                                </p>
-                            </div>
-                            <p class="title text-dark" style="font-size: clamp(21px, 10vw,70px)">
-                                Мы
-                                <br>
-                                перезвоним
-                            </p>
-                            <button class="callback-btn mt-5" style="background:#2E2E2E;">
-                                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M29.3351 7.49843C29.8883 8.05167 29.8883 8.94865 29.3351 9.5019L13.7517 25.0852C13.1985 25.6385 12.3015 25.6385 11.7483 25.0852L4.66493 18.0019C4.11169 17.4487 4.11169 16.5517 4.66493 15.9984C5.21817 15.4452 6.11516 15.4452 6.6684 15.9984L12.75 22.08L27.3316 7.49843C27.8848 6.94519 28.7818 6.94519 29.3351 7.49843Z" fill="#D0A666" />
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.0/axios.min.js"
     integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ=="
